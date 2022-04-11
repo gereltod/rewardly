@@ -5,7 +5,7 @@ if ! [ -x "$(command -v docker-compose)" ]; then
   exit 1
 fi
 
-domains=testrewardly.tk api.testrewardly.tk job.testrewardly.tk admin.testrewardly.tk
+domains=api.namuu.mn
 rsa_key_size=4096
 data_path="./data/certbot"
 email="gereltod.s@gmail.com" # Adding a valid address is strongly recommended
